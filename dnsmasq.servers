@@ -2,8 +2,6 @@
 # MagicDNS.ru
 # 109.120.132.43
 # 94.249.177.102
-#
-#
 
 # Main Forwards
 server=/0.openwrt.pool.ntp.org/1.openwrt.pool.ntp.org/2.openwrt.pool.ntp.org/9.9.9.9
