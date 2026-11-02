@@ -11,6 +11,8 @@ server=/0.openwrt.pool.ntp.org/1.openwrt.pool.ntp.org/2.openwrt.pool.ntp.org/94.
 server=/0.openwrt.pool.ntp.org/1.openwrt.pool.ntp.org/2.openwrt.pool.ntp.org/77.88.8.8#1253
 server=/downloads.openwrt.org/9.9.9.9
 server=/engage.cloudflareclient.com/94.140.14.14#5353
+#server=/vpn.v6.1440.tk/vpn.1440.tk/8.8.8.8
+#server=/vpn.v6.1440.tk/vpn.1440.tk/77.88.8.8#1253
 
 ### Spotify
 # GeoHide
