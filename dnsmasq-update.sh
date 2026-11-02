@@ -1,4 +1,6 @@
 #!/bin/sh
+# To start this from CLI on Router Copy and Paste: 
+# curl -fsSL "https://raw.githubusercontent.com/geokvant/lists/refs/heads/main/dnsmasq-update.sh" | sh
 rm /opt/dnsmasq.servers
 wget -O /opt/dnsmasq.servers https://raw.githubusercontent.com/geokvant/lists/refs/heads/main/dnsmasq.servers
 service dnsmasq restart
