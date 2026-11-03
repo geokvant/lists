@@ -1,45 +1,5 @@
-##### DNS Servers #####
-# MagicDNS.ru
-# 109.120.132.43
-# 94.249.177.102
-
 # Main Forwards
-server=/0.openwrt.pool.ntp.org/1.openwrt.pool.ntp.org/2.openwrt.pool.ntp.org/9.9.9.9
-server=/0.openwrt.pool.ntp.org/1.openwrt.pool.ntp.org/2.openwrt.pool.ntp.org/94.140.14.14
-server=/0.openwrt.pool.ntp.org/1.openwrt.pool.ntp.org/2.openwrt.pool.ntp.org/77.88.8.8#1253
-server=/downloads.openwrt.org/9.9.9.9
+server=/0.openwrt.pool.ntp.org/1.openwrt.pool.ntp.org/2.openwrt.pool.ntp.org/downloads.openwrt.org/9.9.9.9
+server=/0.openwrt.pool.ntp.org/1.openwrt.pool.ntp.org/2.openwrt.pool.ntp.org/downloads.openwrt.org/94.140.14.14
+server=/0.openwrt.pool.ntp.org/1.openwrt.pool.ntp.org/2.openwrt.pool.ntp.org/downloads.openwrt.org/77.88.8.8#1253
 server=/engage.cloudflareclient.com/94.140.14.14#5353
-#server=/vpn.v6.1440.tk/vpn.1440.tk/8.8.8.8
-#server=/vpn.v6.1440.tk/vpn.1440.tk/77.88.8.8#1253
-
-### Spotify
-# GeoHide
-#server=/akamaized.net/byspotify.com/pscdn.co/scdn.co/spoti.fi/spotify-everywhere.com/spotify.com/spotify.design/spotifycdn.com/spotifycdn.net/spotifycharts.com/spotifycodes.com/spotifyforbrands.com/spotifyjobs.com/159.194.200.33
-#server=/akamaized.net/byspotify.com/pscdn.co/scdn.co/spoti.fi/spotify-everywhere.com/spotify.com/spotify.design/spotifycdn.com/spotifycdn.net/spotifycharts.com/spotifycodes.com/spotifyforbrands.com/spotifyjobs.com/server=/akamaized.net/byspotify.com/pscdn.co/scdn.co/spoti.fi/spotify-everywhere.com/spotify.com/spotify.design/spotifycdn.com/spotifycdn.net/spotifycharts.com/spotifycodes.com/spotifyforbrands.com/spotifyjobs.com/159.194.200.33
-#server=/akamaized.net/byspotify.com/pscdn.co/scdn.co/spoti.fi/spotify-everywhere.com/spotify.com/spotify.design/spotifycdn.com/spotifycdn.net/spotifycharts.com/spotifycodes.com/spotifyforbrands.com/spotifyjobs.com/193.233.112.88
-#server=/akamaized.net/byspotify.com/pscdn.co/scdn.co/spoti.fi/spotify-everywhere.com/spotify.com/spotify.design/spotifycdn.com/spotifycdn.net/spotifycharts.com/spotifycodes.com/spotifyforbrands.com/spotifyjobs.com/37.230.192.51
-# MagicDNS
-server=/akamaized.net/byspotify.com/pscdn.co/scdn.co/spoti.fi/spotify-everywhere.com/spotify.com/spotify.design/spotifycdn.com/spotifycdn.net/spotifycharts.com/spotifycodes.com/spotifyforbrands.com/spotifyjobs.com/109.120.132.43
-server=/akamaized.net/byspotify.com/pscdn.co/scdn.co/spoti.fi/spotify-everywhere.com/spotify.com/spotify.design/spotifycdn.com/spotifycdn.net/spotifycharts.com/spotifycodes.com/spotifyforbrands.com/spotifyjobs.com/94.249.177.102
-
-### ChatGPT
-# GeoHide
-#server=/auth0.com/chatgpt.com/gpt3-openai.com/live.net/microsoft.com/oaistatic.com/oaiusercontent.com/openai.com/openai.fund/openai.org/159.194.200.33
-#server=/auth0.com/chatgpt.com/gpt3-openai.com/live.net/microsoft.com/oaistatic.com/oaiusercontent.com/openai.com/openai.fund/openai.org/193.233.112.67
-#server=/auth0.com/chatgpt.com/gpt3-openai.com/live.net/microsoft.com/oaistatic.com/oaiusercontent.com/openai.com/openai.fund/openai.org/193.233.112.68
-#server=/auth0.com/chatgpt.com/gpt3-openai.com/live.net/microsoft.com/oaistatic.com/oaiusercontent.com/openai.com/openai.fund/openai.org/193.233.112.88
-#server=/auth0.com/chatgpt.com/gpt3-openai.com/live.net/microsoft.com/oaistatic.com/oaiusercontent.com/openai.com/openai.fund/openai.org/37.230.192.51
-# Magic DNS
-server=/auth0.com/chatgpt.com/gpt3-openai.com/live.net/microsoft.com/oaistatic.com/oaiusercontent.com/openai.com/openai.fund/openai.org/109.120.132.43
-server=/auth0.com/chatgpt.com/gpt3-openai.com/live.net/microsoft.com/oaistatic.com/oaiusercontent.com/openai.com/openai.fund/openai.org/94.249.177.102
-
-### Notion
-# GeoHide
-#server=/amazonaws.com/hellonotion.com/notion-media.com/notion-static.com/notion.ai/notion.com/notion.dev/notion.site/notion.so/notionup.com/notionusercontent.com/splunkcloud.com/zendesk.com/159.194.200.33
-#server=/amazonaws.com/hellonotion.com/notion-media.com/notion-static.com/notion.ai/notion.com/notion.dev/notion.site/notion.so/notionup.com/notionusercontent.com/splunkcloud.com/zendesk.com/193.233.112.67
-#server=/amazonaws.com/hellonotion.com/notion-media.com/notion-static.com/notion.ai/notion.com/notion.dev/notion.site/notion.so/notionup.com/notionusercontent.com/splunkcloud.com/zendesk.com/193.233.112.68
-#server=/amazonaws.com/hellonotion.com/notion-media.com/notion-static.com/notion.ai/notion.com/notion.dev/notion.site/notion.so/notionup.com/notionusercontent.com/splunkcloud.com/zendesk.com/193.233.112.88
-#server=/amazonaws.com/hellonotion.com/notion-media.com/notion-static.com/notion.ai/notion.com/notion.dev/notion.site/notion.so/notionup.com/notionusercontent.com/splunkcloud.com/zendesk.com/37.230.192.51
-# MagicDNS
-server=/amazonaws.com/hellonotion.com/notion-media.com/notion-static.com/notion.ai/notion.com/notion.dev/notion.site/notion.so/notionup.com/notionusercontent.com/splunkcloud.com/zendesk.com/109.120.132.43
-server=/amazonaws.com/hellonotion.com/notion-media.com/notion-static.com/notion.ai/notion.com/notion.dev/notion.site/notion.so/notionup.com/notionusercontent.com/splunkcloud.com/zendesk.com/94.249.177.102
