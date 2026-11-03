@@ -1,1 +1,17 @@
-# MagicDNS.ru resolver for AI
+# MagicDNS.ru resolver for ChatGPT, Spotify, Notion
+
+##### DNS Servers #####
+# 109.120.132.43
+# 94.249.177.102
+
+### Spotify
+server=/akamaized.net/byspotify.com/pscdn.co/scdn.co/spoti.fi/spotify-everywhere.com/spotify.com/spotify.design/spotifycdn.com/spotifycdn.net/spotifycharts.com/spotifycodes.com/spotifyforbrands.com/spotifyjobs.com/109.120.132.43
+server=/akamaized.net/byspotify.com/pscdn.co/scdn.co/spoti.fi/spotify-everywhere.com/spotify.com/spotify.design/spotifycdn.com/spotifycdn.net/spotifycharts.com/spotifycodes.com/spotifyforbrands.com/spotifyjobs.com/94.249.177.102
+
+### ChatGPT
+server=/auth0.com/chatgpt.com/gpt3-openai.com/live.net/microsoft.com/oaistatic.com/oaiusercontent.com/openai.com/openai.fund/openai.org/109.120.132.43
+server=/auth0.com/chatgpt.com/gpt3-openai.com/live.net/microsoft.com/oaistatic.com/oaiusercontent.com/openai.com/openai.fund/openai.org/94.249.177.102
+
+### Notion
+server=/amazonaws.com/hellonotion.com/notion-media.com/notion-static.com/notion.ai/notion.com/notion.dev/notion.site/notion.so/notionup.com/notionusercontent.com/splunkcloud.com/zendesk.com/109.120.132.43
+server=/amazonaws.com/hellonotion.com/notion-media.com/notion-static.com/notion.ai/notion.com/notion.dev/notion.site/notion.so/notionup.com/notionusercontent.com/splunkcloud.com/zendesk.com/94.249.177.102
