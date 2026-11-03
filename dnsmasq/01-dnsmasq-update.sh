@@ -1,6 +1,7 @@
 #!/bin/sh
 # To start this from CLI on Router Copy and Paste: 
-# curl -fsSL "https://raw.githubusercontent.com/geokvant/lists/refs/heads/main/dnsmasq-update.sh" | sh
+# curl -fsSL "https://raw.githubusercontent.com/geokvant/lists/refs/heads/main/dnsmasq/01-dnsmasq-update.sh" | sh
+uci set dhcp.@dnsmasq[0].confdir="/etc/dnsmasq.d"
 uci set dhcp.@dnsmasq[0].serversfile='/opt/dnsmasq.servers'
 uci commit dhcp
 rm /opt/dnsmasq.servers
@@ -10,7 +11,8 @@ wget -O /etc/dnsmasq.d/netbird-dnsmasq.list https://raw.githubusercontent.com/ge
 wget -O /etc/dnsmasq.d/vpn1440tk-dnsmasq.list https://raw.githubusercontent.com/geokvant/lists/refs/heads/main/dnsmasq/vpn1440tk-dnsmasq.list
 service dnsmasq restart
 service dnsmasq reload
-echo "=-=-=-=-=-=-=-=-=-=-=-="
+echo "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
 echo "DNSMasq is running?"
+echo "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
 service dnsmasq status
 nslookup chatgpt.com
