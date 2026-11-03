@@ -1,0 +1,5 @@
+# NetBird api domain
+server=/api.netbird.io/127.0.0.1
+server=/api.netbird.io/77.88.8.8#1253
+server=/api.netbird.io/9.9.9.9
+server=/api.netbird.io/127.0.0.1#5453
