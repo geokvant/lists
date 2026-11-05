@@ -1,9 +1,5 @@
 # MagicDNS.ru resolver for ChatGPT, Spotify, Notion
 
-##### DNS Servers #####
-# 109.120.132.43
-# 94.249.177.102
-
 ### Spotify
 server=/akamaized.net/byspotify.com/pscdn.co/scdn.co/spoti.fi/spotify-everywhere.com/spotify.com/spotify.design/spotifycdn.com/spotifycdn.net/spotifycharts.com/spotifycodes.com/spotifyforbrands.com/spotifyjobs.com/109.120.132.43
 server=/akamaized.net/byspotify.com/pscdn.co/scdn.co/spoti.fi/spotify-everywhere.com/spotify.com/spotify.design/spotifycdn.com/spotifycdn.net/spotifycharts.com/spotifycodes.com/spotifyforbrands.com/spotifyjobs.com/94.249.177.102
