@@ -8,8 +8,13 @@ rm /opt/dnsmasq.servers
 wget -O /opt/dnsmasq.servers https://raw.githubusercontent.com/geokvant/lists/refs/heads/main/dnsmasq/dnsmasq.servers
 # add netbird api record to dnsmasq resolver
 wget -O /etc/dnsmasq.d/netbird-dnsmasq.list https://raw.githubusercontent.com/geokvant/lists/refs/heads/main/dnsmasq/netbird-dnsmasq.list
+# add vpn1440tk-ingress records to dnsmasq resolver
 wget -O /etc/dnsmasq.d/vpn1440tk-dnsmasq.list https://raw.githubusercontent.com/geokvant/lists/refs/heads/main/dnsmasq/vpn1440tk-dnsmasq.list
+# add MagicDNS to dnsmasq resolver
 wget -O /etc/dnsmasq.d/magicdns-dnsmasq.list https://raw.githubusercontent.com/geokvant/lists/refs/heads/main/dnsmasq/magicdns-dnsmasq.list
+# add Domains to ignore (IPv6) AAAA records to dnsmasq resolver
+wget -O /etc/dnsmasq.d/no_ipv6_resolv.list https://raw.githubusercontent.com/geokvant/lists/refs/heads/main/dnsmasq/no_ipv6_resolv.list
+# Restart Reload service
 service dnsmasq restart
 service dnsmasq reload
 echo "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
