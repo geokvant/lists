@@ -1,0 +1,10 @@
+# dns Dagami.ru resolver for ChatGPT, Spotify, Notion
+
+### Spotify
+server=/akamaized.net/byspotify.com/pscdn.co/scdn.co/spoti.fi/spotify-everywhere.com/spotify.com/spotify.design/spotifycdn.com/spotifycdn.net/spotifycharts.com/spotifycodes.com/spotifyforbrands.com/spotifyjobs.com/2.56.122.194
+
+### ChatGPT
+server=/auth0.com/chatgpt.com/gpt3-openai.com/live.net/microsoft.com/oaistatic.com/oaiusercontent.com/openai.com/openai.fund/openai.org/2.56.122.194
+
+### Notion
+server=/amazonaws.com/hellonotion.com/notion-media.com/notion-static.com/notion.ai/notion.com/notion.dev/notion.site/notion.so/notionup.com/notionusercontent.com/splunkcloud.com/zendesk.com/2.56.122.194
