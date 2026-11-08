@@ -1,5 +1,16 @@
 # Main Forwards
-server=/0.openwrt.pool.ntp.org/1.openwrt.pool.ntp.org/2.openwrt.pool.ntp.org/downloads.openwrt.org/9.9.9.9
-server=/0.openwrt.pool.ntp.org/1.openwrt.pool.ntp.org/2.openwrt.pool.ntp.org/downloads.openwrt.org/94.140.14.14
-server=/0.openwrt.pool.ntp.org/1.openwrt.pool.ntp.org/2.openwrt.pool.ntp.org/downloads.openwrt.org/77.88.8.8#1253
+server=/openwrt.pool.ntp.org/downloads.openwrt.org/9.9.9.9#9953
+server=/openwrt.pool.ntp.org/downloads.openwrt.org/94.140.14.14#5353
+server=/openwrt.pool.ntp.org/downloads.openwrt.org/77.88.8.8#1253
+server=/openwrt.pool.ntp.org/downloads.openwrt.org/127.0.0.1#5453
 server=/engage.cloudflareclient.com/94.140.14.14#5353
+server=/engage.cloudflareclient.com/77.88.8.8#1253
+server=/engage.cloudflareclient.com/9.9.9.9#9953
+server=/engage.cloudflareclient.com/127.0.0.1#5453
+
+# YouTube main domains
+server=/youtube.com/googlevideo.com/googleusercontent.com/ggpht.com/gstatic.com/googleapis.com/youtu.be/127.0.0.1#5453
+server=/youtube.com/googlevideo.com/googleusercontent.com/ggpht.com/gstatic.com/googleapis.com/youtu.be/77.88.8.8#1253
+server=/youtube.com/googlevideo.com/googleusercontent.com/ggpht.com/gstatic.com/googleapis.com/youtu.be/9.9.9.10#9953
+
+# Another section reserve
