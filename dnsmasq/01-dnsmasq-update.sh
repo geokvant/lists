@@ -22,7 +22,7 @@ wget -O /etc/dnsmasq.d/no_ipv6_resolv.list https://raw.githubusercontent.com/geo
 #wget -O /etc/dnsmasq.d/ru-geohide-dnsmasq.list https://raw.githubusercontent.com/geokvant/lists/refs/heads/main/dnsmasq/ru-geohide-dnsmasq.list
 # OR #
 # ADD Dagami DNS to dnsmasq resolver
-wget -O /etc/dnsmasq.d/dagami-dnsmasq.list https://raw.githubusercontent.com/geokvant/lists/refs/heads/main/dnsmasq/dagami-dnsmasq.list
+# wget -O /etc/dnsmasq.d/dagami-dnsmasq.list https://raw.githubusercontent.com/geokvant/lists/refs/heads/main/dnsmasq/dagami-dnsmasq.list
 # RESTART Reload service
 service dnsmasq restart
 service dnsmasq reload
