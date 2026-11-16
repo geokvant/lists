@@ -1,44 +1,26 @@
+# LinkedIn
 address=/linkedin.com/::
+# Facebook
+address=/facebook.com/fbcdn.net/fb.com/messenger.com/z-p42-chat-e2ee-ig.facebook.com/mqtt-ig-p4.facebook.com/z-p42-chat-e2ee-ig-fallback.facebook.com/::
 #
-address=/facebook.com/::
-address=/fbcdn.net/::
-address=/fb.com/::
-address=/messenger.com/::
-address=/z-p42-chat-e2ee-ig.facebook.com/::
-address=/mqtt-ig-p4.facebook.com/::
-address=/z-p42-chat-e2ee-ig-fallback.facebook.com/::
+# WhatsApp
+address=/fbsbx.com/wa.me/whatsapp.biz/whatsapp.com/whatsapp.net/::
 #
-address=/fbsbx.com/::
-address=/wa.me/::
-address=/whatsapp.biz/::
-address=/whatsapp.com/::
-address=/whatsapp.net/::
+# Instagram
+address=/instagram.com/cdninstagram.com/igcdn-photos-e-a.akamaihd.net/instagramstatic.com/ig.me/z-p3-instagram-portal.fb.com/z-p42-instagram-portal.fb.com/instagr.am/igsonar.com/::
 #
-address=/instagram.com/::
-address=/cdninstagram.com/::
-address=/igcdn-photos-e-a.akamaihd.net/::
-address=/instagramstatic.com/::
-address=/ig.me/::
-address=/z-p3-instagram-portal.fb.com/::
-address=/z-p42-instagram-portal.fb.com/::
-address=/instagr.am/::
-address=/igsonar.com/::
-#
-address=/chatgpt.com/::
-address=/auth.openai.com/::
-address=/x.com/::
-address=/x.ai/::
-address=/grok.com/::
-#
+# ChatGPT
+address=/auth0.com/chatgpt.com/gpt3-openai.com/live.net/microsoft.com/oaistatic.com/oaiusercontent.com/openai.com/openai.fund/openai.org/::
+# CA WARP domain
 address=/engage.cloudflareclient.com/::
 #
 address=/ifconfig.at/::
 address=/ifconfig.pro/::
 #
-address=/netatmo.net/::
+# NetAtmo domains
+address=/netatmo.net/netatmo.com/::
 address=/waws-prod-am2-737-0429.westeurope.cloudapp.azure.com/::
 address=/part-0016.t-0009.t-msedge.net/::
-address=/netatmo.com/::
 address=/akadns.net/::
-#address=/prodnv2-geo.trafficmanager.net/::
+address=/prodnv2-geo.trafficmanager.net/::
 address=/e3528.dscg.akamaiedge.net/::
