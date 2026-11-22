@@ -1,0 +1,4 @@
+# Test server
+
+# resolve over dnz.zapret.moe over https-dns-proxy
+server=/grok.com/x.ai/127.0.0.151
