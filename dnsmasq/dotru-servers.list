@@ -1,0 +1,11 @@
+# Yandex
+server=/.ru/77.88.8.8
+# NSPK
+server=/.ru/195.208.4.1
+server=/.ru/195.208.5.1
+# MSK IX
+server=/.ru/62.76.76.62
+server=/.ru/62.76.62.76
+# BI.ZONE Public DNS
+server=/.ru/185.191.32.7
+server=/.ru/185.191.32.8
