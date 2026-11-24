@@ -7,6 +7,8 @@ uci commit dhcp
 rm /opt/dnsmasq.servers
 # ADD Main domains to resolve
 wget -O /opt/dnsmasq.servers https://raw.githubusercontent.com/geokvant/lists/refs/heads/main/dnsmasq/dnsmasq.servers
+# ADD Ru zpne domains to dnsmasq resolver
+wget -O /etc/dnsmasq.d/dotru-dnsmasq.list https://raw.githubusercontent.com/geokvant/lists/refs/heads/main/dnsmasq/dotru-dnsmasq.list
 # ADD netbird api record to dnsmasq resolver
 wget -O /etc/dnsmasq.d/netbird-dnsmasq.list https://raw.githubusercontent.com/geokvant/lists/refs/heads/main/dnsmasq/netbird-dnsmasq.list
 # ADD pron domains record to dnsmasq resolver
